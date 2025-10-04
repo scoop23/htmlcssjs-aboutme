@@ -1,0 +1,248 @@
+body {
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./assets/hHBRDp1.jpeg);
+  background-size: 100%;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  height: 50px;
+}
+
+.header-col {
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(280deg, rgba(188, 52, 207, 1) 50%, rgba(87, 10, 10, 1) 100%);
+  display: flex;
+  padding: 2px 0;
+  justify-content: space-between;
+}
+
+.unang-mga-items {
+  display: flex;
+  gap: 40px;
+  padding-left: 40px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.unang-mga-items img {
+  width: 15px;
+  align-self: center;
+}
+
+
+.second-mga-items {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction : row;
+  gap: 70px;
+}
+
+/* Specific icon sizes */
+.battery-item img {
+  width: 30px;
+  height: auto;
+}
+
+.wlan-item img {
+  width: 30px;
+  height: auto;
+}
+
+.search-item img {
+  width: 30px;
+  height: auto;
+}
+
+.toggle-item img {
+  width: 30px;
+  height: auto;
+}
+
+.texts {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+}
+
+
+.search-item img {
+  width: 20px;
+}
+
+.toggle-item img {
+  width: 23px;
+}
+
+.texts {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
+
+/* MAIN SECTION */
+.main-shit {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* PROFILE & HOBBIES */
+.prof-and-hob {
+  display: flex;
+  gap: 30px;
+  height: 80%;
+}
+
+.prof-header,
+.hob-sec,
+.contact {
+  background-color: rgba(46, 46, 52, 0.1);
+  border-radius: 30px;
+  box-shadow: 0px 10px 19px -2px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+  border: 2px #212129 solid;
+}
+
+.prof-header {
+  width: 50%;
+  height: 80%;
+}
+
+.controls {
+  background-color: #212129;
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  gap: 30px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.minimize-exit-maximize {
+  display: flex;
+  gap: 6px;
+}
+
+.red-btn,
+.yellow-btn,
+.green-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.red-btn {
+  background-color: #ef5350;
+}
+.yellow-btn {
+  background-color: #ffb74d;
+}
+.green-btn {
+  background-color: #4caf50;
+}
+
+.controls span {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+/* PROFILE CONTENT */
+.prof-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.prof-content img {
+  width: 200px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+/* HOBBIES */
+.hob-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.hob-content video {
+  border-radius: 50px;
+  object-fit: cover;
+  align-self: center;
+}
+
+/* SKILLS & CONTACT */
+.skills-and-contact {
+  display: flex;
+  gap: 100px;
+}
+
+.skills {
+  width: 40%;
+}
+
+.skills h2 {
+  color: #ffffff;
+}
+
+.skills table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.skills th {
+  background-color: #212129;
+}
+
+.contact {
+  width: 50%;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+  width: 400px;
+}
+
+.contact-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #212129;
+  width: 100%;
+}
+
+.contact-content button {
+  margin-top: 15px;
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

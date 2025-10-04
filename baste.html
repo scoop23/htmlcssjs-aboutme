@@ -1,142 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Baste's Profile</title>
+  <link rel="stylesheet" href="baste.css" />
 </head>
-<style>
-  /* .prof-header::before {
-    content: '';
-    background-color: #212129;
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    border-radius: 30px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    top: 0px;
-    left: 0;
-  } */
-  .prof-header::after {
-    content: '';
-  }
-</style>
+<body>
 
-<!-- background-color:#212129; -->
-<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; color: #ffffff; display: flex; justify-content: center; font-family: Inter; background-image: url(./assets/hHBRDp1.jpeg); background-size: 100%; display: flex; flex-direction: column; align-items: center;">
-
-  <div class="header" style="width: 100%; height: 50px;">
-    <div class="header-col" style="width:100%; height: 30px; background: linear-gradient(280deg,rgba(188, 52, 207, 1) 50%, rgba(87, 10, 10, 1) 100%);; display: flex; padding-top: 2px; padding-bottom: 2px; justify-content: space-between;">
-
-      <div class="unang-mga-items" style="display: flex; gap: 40px; padding-left: 40px; align-items: center; font-size: 14px; " >
-        <div class="items" style="display: flex; align-items: center;">
-          <img src="./assets/Apple.png" alt="" style="width: 15px; align-self: center;">
-        </div>
+  <div class="header">
+    <div class="header-col">
+      <div class="unang-mga-items">
         <div class="items">
-          Finder
+          <img src="./assets/Apple.png" alt="Apple icon" />
         </div>
-        <div class="item">
-          File
-        </div>
-        <div class="item">
-          Edit
-        </div>
-        <div class="item">
-          View
-        </div>
-        <div class="item">
-          Go
-        </div>
-        <div class="item">
-          Window
-        </div>
-        <div class="item">
-          Help
-        </div>
+        <div class="items">Finder</div>
+        <div class="item">File</div>
+        <div class="item">Edit</div>
+        <div class="item">View</div>
+        <div class="item">Go</div>
+        <div class="item">Window</div>
+        <div class="item">Help</div>
       </div>
 
-      <div class="2nd-mga-items" style="padding-right: 10px; display: flex; align-items: center; gap: 60px;">
-        <div class="battery-item" style="display: flex; align-items: center;">
-          <img src="./assets/battery.png" alt="" style="width: 25px;">
-        </div> 
-        <div class="wlan-item" style="display: flex; align-items: center;">
-          <img src="./assets/wlan.png" alt="" style="width: 25px;">
-        </div> 
-        <div class="search-item" style="display: flex; align-items: center;">
-          <img src="./assets/search.png" alt="" style="width: 20px;">
-        </div> 
-        <div class="toggle-item" style="display: flex; align-items: center;">
-          <img src="./assets/toiggle.png" alt="" style="width: 23px;">
-        </div> 
-        
-        <div class="texts" style="display: flex; gap: 20px; font-size: 16px;">
+      <div class="second-mga-items">
+        <div class="battery-item">
+          <img class="battery-image" src="./assets/battery.png" alt="Battery icon" />
+        </div>
+        <div class="wlan-item">
+          <img src="./assets/wlan.png" alt="WiFi icon" />
+        </div>
+        <div class="search-item">
+          <img src="./assets/search.png" alt="Search icon" />
+        </div>
+        <div class="toggle-item">
+          <img src="./assets/toiggle.png" alt="Toggle icon" />
+        </div>
+        <div class="texts">
           <span>Tue Sep 11</span>
           <span>9:41 AM</span>
         </div>
-        
       </div>
-
     </div>
   </div>
-  <div class="main-shit" style="width: 50%; padding: 20px; display: flex; flex-direction: column; gap: 10px;">
-    
 
-    <div class="prof-and-hob" style="display: flex; gap: 30px; height: 80%;">
-      <div class="prof-header" style="width: 50%; background-color: rgba(46, 46, 52, 0.1); border-radius: 30px; box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.2); backdrop-filter: blur(7px); border-top-left-radius: 30px; border-top-right-radius: 30px; overflow: hidden; border: 2px #212129 solid; height: 80%;">
-        <div class="controls" style="background-color: #212129; display: flex; width: 100%; padding: 10px 20px; gap: 30px; align-items: center; box-sizing: border-box;">
-          <div class="minimize-exit-maximize" style="display: flex; gap: 6px">
-            <div style=" width: 15px; height: 15px; background-color: #EF5350;  border-radius: 10px;">
-            </div>
-            <div style="width: 15px; height: 15px; background-color: #FFB74D; border-radius: 10px;">
-            </div>
-            <div style=" width: 15px; height: 15px; background-color: #4CAF50;  border-radius: 10px;">
-            </div>
+  <div class="main-shit">
+    <div class="prof-and-hob">
+      <div class="prof-header">
+        <div class="controls">
+          <div class="minimize-exit-maximize">
+            <div class="red-btn"></div>
+            <div class="yellow-btn"></div>
+            <div class="green-btn"></div>
           </div>
-          <span style="font-size: 15px; font-weight: 200;">Sebasch Amauri Santillan</span>
+          <span>Sebasch Amauri Santillan</span>
         </div>
-        <div style="flex-direction: column; display: flex; justify-content: center; padding-top: 10px; padding: 20px;">
-          
-          <!-- <h2 class="h2-prof" style="color: #ffffff; margin: 2px; background-color: rgba(34, 34, 39, 1); padding: 20px; border-radius: 20px; font-family: Inter; position: relative;">About me</h2> -->
-          <p style="margin-top: 5px;">Hello! My name is Baste. I am a 3rd-year BSIT student who enjoys coding, exploring new technologies, and learning about web development. I’m passionate about becoming a software or website developer someday.</p>
-          <img src="./assets/tite.png" alt="Baste's profile picture" style="width:200px; border-radius: 10px; align-self: center;">
+        <div class="prof-content">
+          <p>Hello! My name is Baste. I am a 3rd-year BSIT student who enjoys coding, exploring new technologies, and learning about web development. I’m passionate about becoming a software or website developer someday.</p>
+          <img src="./assets/tite.png" alt="Baste's profile picture" />
         </div>
       </div>
 
-      
-
-      <!-- Hobbies Section -->
-      <div class="hob-sec" style="background-color: rgba(46, 46, 52, 0.1); padding: 0px 0px 10px 0px; border-radius: 50px; box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.2); backdrop-filter: blur(5px); border-radius: 30px; box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.2); backdrop-filter: blur(7px); border-top-left-radius: 30px; border-top-right-radius: 30px; overflow: hidden; border: 2px #212129 solid;">
-        <div class="controls" style="background-color: #212129; display: flex; width: 100%; padding: 10px 20px; gap: 30px; align-items: center; box-sizing: border-box;">
-          <div class="minimize-exit-maximize" style="display: flex; gap: 6px">
-            <div style=" width: 15px; height: 15px; background-color: #EF5350;  border-radius: 10px;">
-            </div>
-            <div style="width: 15px; height: 15px; background-color: #FFB74D; border-radius: 10px;">
-            </div>
-            <div style=" width: 15px; height: 15px; background-color: #4CAF50;  border-radius: 10px;">
-            </div>
+      <div class="hob-sec">
+        <div class="controls">
+          <div class="minimize-exit-maximize">
+            <div class="red-btn"></div>
+            <div class="yellow-btn"></div>
+            <div class="green-btn"></div>
           </div>
-          <span style="font-size: 15px; font-weight: 200;"> Hobbies </span>
+          <span>Hobbies</span>
         </div>
-        <div style="display: flex; flex-direction: column; padding: 20px; gap: 10px">
-          <h2 style="color: #ffffff; margin: 0;"></h2>
-          <p style="margin: 0;">I enjoy listening to music, watching tech tutorials, and trying out new coding projects.</p>
+        <div class="hob-content">
+          <p>I enjoy listening to music, watching tech tutorials, and trying out new coding projects.</p>
           <audio controls>
-            <source src="sample-audio.mp3" type="audio/mpeg">
+            <source src="./assets/mymp3.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
-          <video style="border-radius: 50px; object-fit: cover; align-self: center;" controls width="300" height="300" src="./assets/ivan&kurt.mp4">
-          </video>
+          <video controls width="300" height="300" src="./assets/rick.mp4"></video>
         </div>
       </div>
-   </div>
+    </div>
 
-    <div class="skills-and-contact" style="display: flex; gap: 100px;">
-      <!-- Skills Table -->
-      <div class="skills" style="width: 40%;">
-        <h2 style="color: #ffffff;">My Skills Summary 📊</h2>
-        <table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%;">
-          <tr style="background-color: #212129;;">
+    <div class="skills-and-contact">
+      <div class="skills">
+        <h2>My Skills Summary 📊</h2>
+        <table border="1" cellpadding="10">
+          <tr>
             <th>Skill</th>
             <th>Level</th>
           </tr>
@@ -155,34 +104,27 @@
         </table>
       </div>
 
-      <!-- Contact Form -->
-<div class="contact" style="width: 50%; background-color: rgba(46, 46, 52, 0.1); border-radius: 30px; box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.2); backdrop-filter: blur(7px); border-top-left-radius: 30px; border-top-right-radius: 30px; overflow: hidden; border: 2px #212129 solid;">
-  <!-- Top bar (like prof-header) -->
-  <div class="controls" style="background-color: #212129; display: flex; width: 100%; padding: 10px 20px; gap: 30px; align-items: center; box-sizing: border-box;">
-    <div class="minimize-exit-maximize" style="display: flex; gap: 6px">
-      <div style=" width: 15px; height: 15px; background-color: #EF5350;  border-radius: 10px;"></div>
-      <div style="width: 15px; height: 15px; background-color: #FFB74D; border-radius: 10px;"></div>
-      <div style=" width: 15px; height: 15px; background-color: #4CAF50;  border-radius: 10px;"></div>
-    </div>
-    <span style="font-size: 15px; font-weight: 200;">Let's Connect 📬</span>
-  </div>
+      <div class="contact">
+        <div class="controls">
+          <div class="minimize-exit-maximize">
+            <div class="red-btn"></div>
+            <div class="yellow-btn"></div>
+            <div class="green-btn"></div>
+          </div>
+          <span>Let's Connect 📬</span>
+        </div>
+        <div class="contact-content">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
 
-  <!-- Inside content -->
-  <div style="display: flex; flex-direction: column; padding: 20px; gap: 15px; width: 400px;">
-    <form>
-      <label for="name" style="margin-bottom: 5px;">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" 
-             style="padding: 10px; border-radius: 10px; border: 1px solid #212129; width: 100%;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" />
 
-      <label for="email" style="margin-top: 15px; margin-bottom: 5px;">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" 
-             style="padding: 10px; border-radius: 10px; border: 1px solid #212129; width: 100%;">
-
-      <button type="submit" style="margin-top: 15px; background: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer;">Submit</button>
-    </form>
-  </div>
-</div>
-
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 
